@@ -3,8 +3,9 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { CardHeader, CardTitle } from "@/components/ui/card"
 import Illustrasi from "@/assets/Illustrasi.png"
+import logo from "@/assets/logo.png"
 
 
 
@@ -29,9 +30,7 @@ export default function LoginPage() {
                 <div className="w-full max-w-md space-y-6">
                     <CardHeader className="space-y-2 text-center">
                         <div className="flex items-center justify-center gap-2">
-                            <div className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center text-white text-xs font-bold">
-                                E
-                            </div>
+                            <img src={logo} alt="logo" className="w-7 h-7" />
                             <span className="font-semibold text-lg">SIMS PPOB ERMAN JUNAIDI</span>
                         </div>
                         <CardTitle className="text-2xl font-bold text-gray-800">

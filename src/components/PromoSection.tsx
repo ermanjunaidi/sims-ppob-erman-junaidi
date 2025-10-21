@@ -47,8 +47,7 @@ export default function PromoSection() {
     return (
         <section className="mt-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
-                <h3 className="text-lg font-semibold mb-4">🎉 Promo Menarik</h3>
-
+                <h3 className="text-lg font-semibold mb-4">Temukan promo menarik</h3>
                 <Carousel
                     plugins={[plugin.current]}
                     opts={{
