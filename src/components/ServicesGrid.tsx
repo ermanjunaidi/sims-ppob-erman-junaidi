@@ -1,5 +1,3 @@
-import React from "react"
-
 const services = [
     { name: "PBB", icon: "🏠" },
     { name: "Listrik", icon: "⚡" },
@@ -15,7 +13,7 @@ const services = [
     { name: "Paket Data", icon: "📶" },
 ]
 
-export function ServiceGrid() {
+export default function ServiceGrid() {
     return (
         <div className="mt-8 px-4">
             <h2 className="text-lg font-semibold mb-4">Layanan</h2>
