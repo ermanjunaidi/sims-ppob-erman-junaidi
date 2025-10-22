@@ -14,7 +14,6 @@ export default function TopUpPage() {
             <Navbar />
 
             <main className="px-10 py-6">
-                {/* Header user + saldo */}
                 <div className="flex items-start justify-between flex-wrap gap-6">
                     <div className="flex items-center gap-4">
                         <img
@@ -30,7 +29,6 @@ export default function TopUpPage() {
                     <BalanceCard />
                 </div>
 
-                {/* Input Top Up */}
                 <div className="mt-12 max-w-5xl">
                     <p className="text-gray-700 mb-2">Silahkan masukan</p>
                     <h3 className="text-2xl font-semibold mb-6">Nominal Top Up</h3>
