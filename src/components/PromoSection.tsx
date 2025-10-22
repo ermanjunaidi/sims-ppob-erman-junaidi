@@ -4,8 +4,6 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
 } from "@/components/ui/carousel"
 
 const promos = [
@@ -78,9 +76,6 @@ export default function PromoSection() {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-
-                    <CarouselPrevious className="left-0 bg-white/60 hover:bg-white" />
-                    <CarouselNext className="right-0 bg-white/60 hover:bg-white" />
                 </Carousel>
             </div>
         </section>
